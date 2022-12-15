@@ -1,0 +1,10 @@
+digraph G{
+
+rankdir=LR; 
+ node[shape=square, style=filled, color=grey, fontname="Century Gothic"];  graph [fontname = "Century Gothic"];labelloc="t; "label = "Órdenes pendientes";
+xSebas[dir=both label="Nombre del cliente = Sebas\nPedido = Rosca Danesa \nTiempo = 2 horas\nDirección = Mixco\nCorreo = sebas@gmail.com\nTelefono = 42448949"]xSebas-> xSebas
+xSebas[dir=both label="Nombre del cliente = Sebas\nPedido = Rosca Danesa \nTiempo = 2 horas\nDirección = Mixco\nCorreo = 10\nTelefono = 0"]xSebas[dir=both label="Nombre del cliente = Sebas\nPedido = Rosca Danesa \nTiempo = 2 horas\nDirección = Mixco\nCorreo = 10\nTelefono = 0"]xSebas-> xHola
+xHola[dir=both label="Nombre del cliente = Hola\nPedido = 6 Galletas con Cobertura \nTiempo = 1 horas\nDirección = si\nCorreo = si\nTelefono = 12"]xHola[dir=both label="Nombre del cliente = Hola\nPedido = 6 Galletas con Cobertura \nTiempo = 1 horas\nDirección = si\nCorreo = si\nTelefono = 12"]xHola-> xHola
+xHola[dir=both label="Nombre del cliente = Hola\nPedido = Rosca Danesa \nTiempo = 2 horas\nDirección = 10\nCorreo = 0\nTelefono = 12"]xHola[dir=both label="Nombre del cliente = Hola\nPedido = Rosca Danesa \nTiempo = 2 horas\nDirección = 10\nCorreo = 0\nTelefono = 12"]xHola-> xsen
+xsen[dir=both label="Nombre del cliente = sen\nPedido = Pastel de Frutas \nTiempo = 2.5 horas\nDirección = adka\nCorreo = 10\nTelefono = 123"]
+}
